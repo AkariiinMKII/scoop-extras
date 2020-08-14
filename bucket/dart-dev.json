@@ -1,5 +1,5 @@
 {
-    "version": "2.10.0-2.0.dev",
+    "version": "2.10.0-4.0.dev",
     "description": "The libraries and command-line tools that you need to develop Dart web, command-line, and server apps",
     "homepage": "https://www.dartlang.org/",
     "license": "BSD-3-Clause",
@@ -7,12 +7,12 @@
     "env_add_path": "bin",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.10.0-2.0.dev/sdk/dartsdk-windows-x64-release.zip",
-            "hash": "c5eeecd432f5fb182f79e6924ecb1bb3945670ad8b3bb80ebc1bb816b4e0b1f5"
+            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.10.0-4.0.dev/sdk/dartsdk-windows-x64-release.zip",
+            "hash": "f087472f98ac229c73a32de7e4b5eb4fba1ed581d767d44fd2bb3fd5fa385fa4"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.10.0-2.0.dev/sdk/dartsdk-windows-ia32-release.zip",
-            "hash": "e69a98ba8bddf05d784982a24d9bbb065b1752a3ca267d0742021967edda3653"
+            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.10.0-4.0.dev/sdk/dartsdk-windows-ia32-release.zip",
+            "hash": "78818bf62b2281565c70aa7c913ff3dd5ff372f7a3e7d5e81d7eba3558260a19"
         }
     },
     "checkver": {

@@ -1,5 +1,5 @@
 {
-    "version": "1.23.14.3",
+    "version": "1.23.15.4",
     "description": "Markdown editing and weblog publishing tool.",
     "homepage": "https://markdownmonster.west-wind.com",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://markdownmonster.west-wind.com/purchase.aspx#License"
     },
     "url": "https://west-wind.com/files/MarkdownMonsterPortable.zip",
-    "hash": "10fbfef1300030e8b3269696ca47cf7a207e37ba71ff1809a18875634843945c",
+    "hash": "66fa83a7cbba43655f66acaf249892590429d1e1d7d95eb86ec2c21552a55ffb",
     "bin": [
         "mm.exe",
         "MarkdownMonster.exe"

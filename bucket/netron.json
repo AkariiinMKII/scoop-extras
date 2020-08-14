@@ -1,12 +1,12 @@
 {
-    "version": "4.4.2",
+    "version": "4.4.4",
     "description": "Visualizer for deep learning and machine learning models.",
     "homepage": "https://github.com/lutzroeder/Netron",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lutzroeder/netron/releases/download/v4.4.2/Netron-Setup-4.4.2.exe#/dl.7z",
-            "hash": "sha512:f3da88bfa1b61f67c60f074f2ca1cec6573e8120beb1e7b2095082701da383d002a83ddaba559677baeef33892b35d7cd184f8de1a942f814d2832a1758b644e",
+            "url": "https://github.com/lutzroeder/netron/releases/download/v4.4.4/Netron-Setup-4.4.4.exe#/dl.7z",
+            "hash": "sha512:009d02e0afd3ac663f27eba67558591fbd7c4647b92e8126b5d83f6ed5d8749818ddd76ddaa3ac9f239334c9558bfd822c3a69d2c74b86b81eebe549eeba41c1",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
