@@ -1,13 +1,15 @@
 {
-    "version": "1.23.15.4",
-    "description": "Markdown editing and weblog publishing tool.",
+    "version": "1.23.18.3",
+    "description": "Markdown editing and weblog publishing tool",
     "homepage": "https://markdownmonster.west-wind.com",
     "license": {
         "identifier": "Proprietary",
         "url": "https://markdownmonster.west-wind.com/purchase.aspx#License"
     },
-    "url": "https://west-wind.com/files/MarkdownMonsterPortable.zip",
-    "hash": "66fa83a7cbba43655f66acaf249892590429d1e1d7d95eb86ec2c21552a55ffb",
+    "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/v1.23/MarkdownMonsterSetup-1.23.18.3.exe",
+    "hash": "bc6fde4fe35a9206678e0daa6e678f48d424670d44a7800d83d115f96e15191a",
+    "innosetup": true,
+    "pre_install": "New-Item \"$dir\\_IsPortable\" | Out-Null",
     "bin": [
         "mm.exe",
         "MarkdownMonster.exe"
@@ -20,10 +22,10 @@
     ],
     "persist": "PortableSettings",
     "checkver": {
-        "url": "https://markdownmonster.west-wind.com/download.aspx",
-        "regex": "<[vV]ersion>([\\d.]+)</[vV]ersion>"
+        "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml",
+        "xpath": "/VersionInfo/Version"
     },
     "autoupdate": {
-        "url": "https://west-wind.com/files/MarkdownMonsterPortable.zip"
+        "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/v$majorVersion.$minorVersion/MarkdownMonsterSetup-$version.exe"
     }
 }
