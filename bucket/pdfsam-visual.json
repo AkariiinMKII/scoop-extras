@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.6",
     "description": "A visual PDF tool to compose, combine, delete pages, crop and much more",
     "homepage": "https://pdfsam.org/pdfsam-visual/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/torakiki/pdfsam-visual-public/releases/download/v3.0.1/pdfsam-visual_3.0.1-windows_x64.zip",
-            "hash": "9d5c7b0d2ca62f35854aef13467ae01b4fe6d6ca8a4adec8e4c6b7f70125e188"
+            "url": "https://github.com/torakiki/pdfsam-visual-public/releases/download/v3.0.6/pdfsam-visual_3.0.6-windows_x64.zip",
+            "hash": "9185e3e7a4d9fa432f5825001cb1e6013be6a04678f3094362bc790aab411e76"
         }
     },
     "shortcuts": [
