@@ -1,5 +1,5 @@
 {
-    "version": "1.6.4",
+    "version": "1.6.6",
     "description": "An advanced freeware audio player for the Windows platform.",
     "homepage": "https://www.foobar2000.org/",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         "Encoders": "extras/foobar2000-encoders"
     },
-    "url": "https://www.videohelp.com/download/foobar2000_v1.6.4.exe#/dl.7z",
-    "hash": "6931e0e02d90187eb0f743792484c034ad9be843858606f74da553aade80b22c",
+    "url": "https://www.videohelp.com/download/foobar2000_v1.6.6.exe#/dl.7z",
+    "hash": "c71e28a4b510793ac100ca0343a58ca7a97cd108e95863b5296762ad6e77355d",
     "bin": "foobar2000.exe",
     "shortcuts": [
         [
